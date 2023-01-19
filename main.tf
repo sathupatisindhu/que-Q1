@@ -9,8 +9,8 @@ terraform {
 
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIAZKU6FSALSNTA524V"
-  secret_key = "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"
+  access_key = "AKIAVQCDPJTEDMY5OKMM"
+  secret_key = "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"
 }
 # Creating nginx_server
 resource "aws_instance" "nginx_server" {
